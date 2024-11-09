@@ -161,7 +161,8 @@ const ReviewCarousel = () => {
           }
           whileHover={{ x: 10, color: '#00B2CA', opacity: 1 }}
         >
-          {'>>'}
+          
+          {'>>'} //these navigator symbols need to be disabled when the first and last cards are on the carousel
         </motion.button>
         <motion.button
           id="prev"
